@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bar.MSolutionRefCollection" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>MSolutionRefCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MSolution" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgCBAQQIAEgCgAMAQgCBAAAAABICgQMgEAAAEAAgEA=</HashCode>
+      <FileName>MSolution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MSolutionSettings" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwIIgKgABQEFUMAGAjA7BJBAELGYgYKII2zWxEoNBiE=</HashCode>
+      <FileName>MSolutionSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MContainer" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAABDAUAAEguAABAAIAABZIABBKgBAQCADQAACoAAg=</HashCode>
+      <FileName>MContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MObject" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAEAAAAAAAAABAAAAIAAAAAADAAAAAAAA=</HashCode>
+      <FileName>MObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MElement" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIDAAAAAgkAAAAAEAABRAEBBIgBAQAADAAAAAAgg=</HashCode>
+      <FileName>MElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MResourceManager" Collapsed="true">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>MResourceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MMethodManager" Collapsed="true">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>MMethodManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MSnapshotManager" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>MSnapshotManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MLogManager" Collapsed="true">
+    <Position X="2.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>MLogManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Utility.MUtility" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAFAAAAAAAgAAAAAACAAEIAAAAAABEEAgAAAAAAAAA=</HashCode>
+      <FileName>Utility\MUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MVersion" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACACABABWEAEAAgAAABARAAIAgAAAADAAAIEAAE=</HashCode>
+      <FileName>MVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MBaseIdManager" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAgBAIEAQCAAAAAAAABCEQAAAEAEgAAACA=</HashCode>
+      <FileName>Container\MBaseIdManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MLinkIdManager" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAACA=</HashCode>
+      <FileName>Container\MBaseIdManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MCellIdManager" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Container\MBaseIdManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MCell" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACLCEAABAEAAFBAAAAABAAAEIAAAACADgAAIAAAA=</HashCode>
+      <FileName>Container\MCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MCellA" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQKEEAAAgkAAEBAAAABRAABFIgBAQCADgAAIAAAg=</HashCode>
+      <FileName>Container\MCellA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MCellB" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAQKQEAAAkkIAEFAAEABRBQBVIgBAQaADgEAJAAAg=</HashCode>
+      <FileName>Container\MCellB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MLink" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwEAIDAACBAkgAGFAAAEAJxBRJBIgBAQAAHIAABAABk=</HashCode>
+      <FileName>Container\MLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MLinkCollection" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Container\MLinkCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MContainerLinkCollection" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwAAAACKAADABFAMAAJAQAAYAEAQEAoABAAABQAAI=</HashCode>
+      <FileName>Container\MEngineLinkCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MCellCollection" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAQAAgDAANAAAAgAQAACAMAAACQAAQBABAAAQ=</HashCode>
+      <FileName>Container\MCellCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MID" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAABAABACIGAAAAAAAABCARAAAAAAAEAAAFABA=</HashCode>
+      <FileName>Container\MID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MCellId" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFABA=</HashCode>
+      <FileName>Container\MID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.Container.MLinkId" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFABA=</HashCode>
+      <FileName>Container\MID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar.MStatistics" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICIQCAAgQCAEgBMACAAAABBQRAIgACAAELAAEEAAiA=</HashCode>
+      <FileName>MStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Bar.MSolutionState" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAEAAAAABAAAAAAAAAAAAAAAAACAABA=</HashCode>
+      <FileName>MSolutionState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Bar.Container.MLinkDirection" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAI=</HashCode>
+      <FileName>Container\MLinkDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,30 @@
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Browser\bin\x86\Debug\Readme-Browser.txt
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Browser\bin\x86\Debug\Browser.exe
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Browser\bin\x86\Debug\Browser.pdb
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Browser\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Browser\obj\x86\Debug\Browser.Properties.Resources.resources
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Browser\obj\x86\Debug\Browser.csproj.GenerateResource.Cache
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Browser\obj\x86\Debug\Browser.exe
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Browser\obj\x86\Debug\Browser.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\bin\x86\Debug\Readme-Bar.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\bin\x86\Debug\Readme-Browser.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\bin\x86\Debug\Browser.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\bin\x86\Debug\Browser.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\bin\x86\Debug\Bar.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\bin\x86\Debug\Bar.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\obj\x86\Debug\Browser.Properties.Resources.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\obj\x86\Debug\Browser.csproj.GenerateResource.Cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\obj\x86\Debug\Browser.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Browser\obj\x86\Debug\Browser.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\bin\x86\Debug\Readme-Bar.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\bin\x86\Debug\Readme-Browser.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\bin\x86\Debug\Browser.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\bin\x86\Debug\Browser.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\bin\x86\Debug\Bar.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\bin\x86\Debug\Bar.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\obj\x86\Debug\Browser.Properties.Resources.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\obj\x86\Debug\Browser.csproj.GenerateResource.Cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\obj\x86\Debug\Browser.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Browser\obj\x86\Debug\Browser.pdb

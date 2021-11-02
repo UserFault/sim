@@ -1,0 +1,11 @@
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\obj\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\bin\Debug\RenewTests2017.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\bin\Debug\RenewTests2017.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\bin\Debug\Mary.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\bin\Debug\Mary.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\obj\Debug\RenewTests2017.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\obj\Debug\RenewTests2017.pdb
+V:\МоиПроекты\ДвижокТапп\Материалы\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\obj\Debug\RenewTests2017.exe
+V:\МоиПроекты\ДвижокТапп\Материалы\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\obj\Debug\RenewTests2017.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\obj\Debug\RenewTests2017.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\RenewTests2017\obj\Debug\RenewTests2017.pdb

@@ -1,0 +1,329 @@
+﻿++ Задача Создать Структуру Входной Группы Солюшена
+[template: ШаблонКарточкиЗадачи]
+
++++Состояние задачи
+* Не выполнено
+
++++Задание
+Входная группа - это то, как Солюшен выглядит для клиента.
+Это объект движка и его набор свойств и функций, с помощью которых клиент работает с Солюшеном через Движок. 
+Она включает в себя конструктор объекта Солюшена, функции управления Солюшеном, и пример пользовательского кода, использующего эти функции для выполнения операций с Солюшеном. 
+
++++Зависимости
+* В Классе MSolutionSettings уже должны быть конструктор, члены и функция загрузки из Файла Солюшена
+
++++Материалы
+* wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер
+* [rel://../Сценарии работы с солюшеном старые.txt]
+* [rel://../Функции менеджера  Хранилищ как пример для Тапп.txt]
+
++++Обсуждение и принятые решения
+Входная часть - это то, как Движок выглядит для клиента.
+Это объект движка и его набор свойств и функций, с помощью которых клиент работает с Солюшеном через Движок.
+Надо сделать Солюшен так, чтобы он открывался и закрывался, просто и понятно для клиента.
+ Удобно для работы, подобно тому, как в проекте Хранилищ.
+
+Входная часть это отдельная часть проекта Движка. Ее надо документировать. 
+Особенно в конце работы над этой задачей.
+Это 1 заход на проект.
+
+Это совсем не просто. Требуется, чтобы Солюшен был корневым объектом для клиента, а из него уже доступ к контейнеру и потом дальше.
+    А в существующей архитектуре Тапп Контейнер - главный объект.
+    - У Солюшена должны быть свойства-настройки-статистика. Желательно, в одном объекте.
+    - У солюшена должен быть выделенный каталог, произвольно перемещаемый на диске.
+    - надо написать функцию проверки, что каталог это каталог Солюшена.
+    - надо решить, что версия движка это версия сборки движка.
+      - И написать функцию, возвращающую версию сборки движка.
+      - И завести текстовый файл описания версий движка.
+      - И завести текстовый файл реадме, копируемый в выходной сборочный каталог проекта.
+
+Вопросы:
+- где заканчивается эта входная часть и начинается собственно Движок, код исполнения операций?
+- Что входит в эту входную часть?
+- как реализовать Входную часть так чтобы ее можно было легко переделывать, дополнять и расширять в последующих работах?
+- как можно совместить существующие наработки в этой новой входной части?
+
+++++Менеджер Хранилищ как образец
+Менеджер Хранилищ как образец не годится. В нем каталоги Хранилищ используются как объекты Хранилищ. Пользователь указывает папку Хранилища, а не файл настроек Хранилища. В менеджере есть функция, которая опознает папку Хранилища по ее характерной структуре файлов и подпапок.
+Для Солюшенов этот способ выглядит неподходящим. Солюшен тоже хранится в собственной папке. Наружу ничего не торчит.
+Но папку нельзя ассоциировать с Солюшеном, с приложением. В Виндовс только файлы ассоциируются с приложениями, по расширению файла. Солюшен должен указываться по Файлу Солюшена. Структура папки Солюшена тоже не однообразная - в разных конфигурациях Солюшенов часть каталогов и файлов может отсутствовать, иметь произвольные названия, размещаться в произвольных местах вне каталога Солюшена. Хотя функция определения Каталга Солюшена желательна в Движке, но предполагается, что все это определение будет основано только на Файле Солюшена и его формате: есть файл, читается файл - значит, это Каталог Солюшена. 
+    * *Вывод:* Для Солюшена пригодится функция определения Каталога Солюшена, как в Менеджере Хранилищ. Непосредственно не нужна, но клиенту-приложению может пригодиться.
+
+++++Список элементов входной группы старого Движка
+Взято из старого проекта Движка - лаконично, хотя описания кривоваты
+Из проекта Хранилищ ничего полезного не нашлось.
+* Конструктор объекта Солюшена
+* wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер%2FСоздать%20Солюшен 
+        /// <summary>
+        /// NT-Create new project - вроде сделано, наскоро, надо проверять все. 251017
+        /// </summary>
+        /// <param name="rootFolder">Parent directory for project directory</param>
+        /// <param name="info">Информация о создаваемом солюшене</param>
+        public void SolutionCreate(string rootFolder, MSolutionInfo info)
+* wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер%2FОткрыть%20Солюшен
+        /// <summary>
+        /// NT-Open existing solution
+        /// </summary>
+        /// <param name="projectFilePath">Path of project file to open</param>
+        public void SolutionOpen(string projectFilePath)
+* wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер%2FЗакрыть%20Солюшен
+        /// <summary>
+        /// NT-Close solution
+        /// </summary>
+        public void SolutionClose(bool withSave)
+* wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер%2FСохранить%20Солюшен
+        /// <summary>
+        /// NT-Saving solution
+        /// </summary>
+        /// <remarks>
+        /// Сохранять проект можно только в устойчивых состояниях процесса.
+        /// Ксли проект не использует БД, сохранить проект можно только при помощи моментального снимка.
+        /// </remarks>
+        public void SolutionSave()
+* wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер%2FОчистить%20Солюшен
+        /// <summary>
+        /// NT-Clear project. Remove cells and links from memory and database tables. Container name, description and other values not changed.
+        /// </summary>
+        public void SolutionClear()
+* wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер%2FУдалить%20Солюшен
+        /// <summary>
+        /// NR-Delete project from filesystem and database server
+        /// </summary>
+        /// <param name="projectFilePath">Project file pathname</param>
+        /// <returns>Возвращает true, если Хранилище успешно удалено или его каталог не существует.
+        /// Возвращает false, если удалить Хранилище не удалось по какой-либо причине.</returns>
+        public static bool SolutionDelete(string projectFilePath)
+* wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер%2FОптимизировать%20Солюшен
+        /// <summary>
+        /// NR-Optimize project
+        /// </summary>
+        /// <remarks>Основная функция запуска оптимизатора в процессе работы. Пока неясно, что она делает.</remarks>
+        public void SolutionOptimize()
+* wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер%2FПолучить%20статистику%20Солюшена совместить с wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер%2FПолучитьСчетчикВнешнихСолюшенов
+        /// <summary>
+        /// NT-Get solution statistics info
+        /// </summary>
+        /// <returns>Returns solution statistic info</returns>
+        public MStatistic SolutionGetStatistics()
+* wikirel://../../../Справочники/ДвижокТаппВики/ДвижокТаппВики.wiki?page=Контейнер%2FПолучить%20состояние%20солюшена
+
+
++++Выполняемые действия
+++++1. В файл [file:///V:/МоиПроекты/ДвижокТапп/РаботатьЗдесь/Самый новый рывок/Sim2018/Bar/MSolution.cs] добавить код, если еще нет:
+        /// <summary>
+        /// Конструктор объекта Солюшена
+        /// </summary>
+        public MSolution()
+        {
+            //TODO: Add code here...
+        }
+...
+        /// <summary>
+        /// NR-Создать новый Солюшен
+        /// </summary>
+        /// <param name="rootFolder">Родительский каталог для каталога Солюшена</param>
+        /// <param name="info">Информация о создаваемом солюшене</param>
+        public void SolutionCreate(string rootFolder, MSolutionSettings info)
+        {
+            throw new NotImplementedException();//TODO: Add code here...
+        }
+        /// <summary>
+        /// NR-Открыть Солюшен
+        /// </summary>
+        /// <param name="solutionFilePath">Путь к Файлу Солюшена</param>
+        public void SolutionOpen(string solutionFilePath)
+        {
+            //TODO: Добавить ссылку на солюшен в MSolutionRefCollection при открытии солюшена
+            throw new NotImplementedException();//TODO: Add code here...
+        }
+        /// <summary>
+        /// NR-Закрыть Солюшен
+        /// </summary>
+        /// <remarks></remarks>
+        /// <param name="withSave">Выполнять сохранение Солюшена перед закрытием</param>
+        public void SolutionClose(bool withSave)
+        {
+            throw new NotImplementedException();//TODO: Add code here...
+        }
+        /// <summary>
+        /// NR-Сохранить состояние Солюшена
+        /// </summary>
+        /// <remarks>
+        /// Сохранять Солюшен можно только в устойчивых состояниях процесса.
+        /// Ксли Солюшен не использует БД, сохранить Солюшен можно только при помощи моментального снимка.
+        /// </remarks>
+        public void SolutionSave()
+        {
+            throw new NotImplementedException();//TODO: Add code here...
+        }
+        /// <summary>
+        /// NR-Очистить содержимое Солюшена.
+        /// </summary>
+        /// <remarks>
+        /// Удалить ячейки и связи из памяти и таблиц БД. 
+        /// Название Солюшена, описание, идентификатор и другие значения не изменятся.
+        /// </remarks>
+        public void SolutionClear()
+        {
+            throw new NotImplementedException();//TODO: Add code here...
+        }
+        /// <summary>
+        /// NR-Удалить Солюшен с диска и из сервера БД
+        /// </summary>
+        /// <param name="solutionFilePath">Путь к Файлу Солюшена</param>
+        /// <returns>Возвращает true, если Солюшен успешно удален или его каталог не существует.
+        /// Возвращает false, если удалить Солюшен не удалось по какой-либо причине.</returns>
+        public static bool SolutionDelete(string solutionFilePath)
+        {
+            throw new NotImplementedException();//TODO: Add code here...
+        }
+        /// <summary>
+        /// NR-Оптимизировать Солюшен
+        /// </summary>
+        /// <remarks>Основная функция запуска оптимизатора в процессе работы. Пока неясно, что она делает.</remarks>
+        public void SolutionOptimize()
+        {
+            throw new NotImplementedException();//TODO: Add code here...
+        }
+        /// <summary>
+        /// NR-Получить Статистику Солюшена
+        /// </summary>
+        /// <returns>
+        /// Возвращает статистику Солюшена.
+        /// Статистика Солюшена входит в состав Настроек Солюшена 
+        /// и обновляется при закрытии Солюшена или при вызове этой функции.
+        /// Статистика Солюшена входит в состав Файла Полного Снимка Солюшена и обновляется перед его созданием.
+        /// </returns>
+        public MSolutionSettings SolutionGetStatistics()
+        {
+            throw new NotImplementedException();//TODO: Add code here...
+        }
+        /// <summary>
+        /// NT-Получить строковое описание для отладчика
+        /// </summary>
+        /// <returns>Возвращает строковое описание для отладчика</returns>
+        public override string ToString()
+        {
+            return String.Format("Id={0}; State={1};", this.SolutionId, this.SolutionState.ToString());
+        }        
+
+++++2. в файл тестового приложения добавить код тестов:
+
+/// <summary>
+/// NT-Тест функций входной группы Солюшена
+/// </summary>
+public class Test_SolutionInputGroup
+{
+    public static void Test()
+    {
+        СоздатьТестовыйСолюшен("C:\\Temp");
+        ОткрытьСолюшен("C:\\Temp\\ФайлСолюшена.ext");
+        TestSolutionOperations("C:\\Temp\\ФайлСолюшена.ext");
+    }
+
+    private static void СоздатьТестовыйСолюшен(string rootfolder)
+    {
+        //создаем объект движка. Тут просто инициализация движка без солюшена.
+        MSolution d = new MSolution();
+        //заполняем свойства нового солюшена
+        //здесь закомментированы поля, использующие значения по умолчанию
+        MSolutionSettings info = new MSolutionSettings();
+        info.DatabaseType = MDatabaseType.NoDatabase;
+        info.DatabaseName = String.Empty;
+
+        info.SolutionName = "TestSolution";
+        info.SolutionDescription = "Test project in 2017";
+        //info.SolutionId = 1;//by default
+        //info.SolutionVersion = new MVersion("1.0.0.0");//by default
+
+        info.ContainerDefaultCellMode = Bar.Container.MCellMode.Temporary;//для СолюшенБезБД другого не может быть 
+
+        //создаем солюшен и инициализируем его данными движок.
+        d.SolutionCreate(rootfolder, info);//должен быть создан, но не открыт
+
+        //... some work here
+
+        //d.SolutionClose(true); - солюшен не открыт - нечего и закрывать
+        d = null;
+        return;
+    }
+
+    private static void ОткрытьСолюшен(string solutionFilePath)
+    {
+        //создаем объект движка. Тут просто инициализация движка без солюшена.
+        MSolution d = new MSolution();
+        //открываем солюшен и инициализируем его данными движок.
+        d.SolutionOpen(solutionFilePath);
+
+        //...some work here
+
+        d.SolutionClose(true);
+        d = null;
+        return;
+    }
+    private static void TestSolutionOperations(string solutionFilePath)
+    {
+        try
+        {
+            Console.WriteLine("Solution operations test started");
+            //создаем объект движка.
+            MSolution d = new MSolution();
+            //открываем солюшен и инициализируем его данными движок.
+            d.SolutionOpen(solutionFilePath);
+            Console.WriteLine("Solution opened");
+
+            MSolutionSettings stat = d.SolutionGetStatistics();
+            PrintSolutionStatistics(stat);
+            Console.WriteLine("Optimizing solution..");
+            d.SolutionOptimize();
+            stat = d.SolutionGetStatistics();
+            PrintSolutionStatistics(stat);
+            Console.WriteLine("Saving solution..");
+            d.SolutionSave();
+            Console.WriteLine("Clearing solution..");
+            d.SolutionClear();
+            stat = d.SolutionGetStatistics();
+            PrintSolutionStatistics(stat);
+            Console.WriteLine("Closing solution..");
+            d.SolutionClose(false);
+            d = null;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+        }
+        Console.WriteLine("Solution operations test finished");
+        return;
+    }
+    public static void PrintSolutionStatistics(Bar.MSolutionSettings info)
+    {
+        Console.WriteLine("");
+        Console.WriteLine("Solution info:");
+        Console.WriteLine(String.Format("CellsInMemory: {0}", info.CellsInMemory));
+        Console.WriteLine(String.Format("ConstantCells: {0}", info.ConstantCells));
+        Console.WriteLine(String.Format("TemporaryCells: {0}", info.TemporaryCells));
+        Console.WriteLine(String.Format("ExternalCells: {0}", info.ExternalCells));
+        Console.WriteLine(String.Format("LinksInMemory: {0}", info.LinksInMemory));
+        Console.WriteLine(String.Format("ConstantLinks: {0}", info.ConstantLinks));
+        Console.WriteLine(String.Format("TemporaryLinks: {0}", info.TemporaryLinks));
+        Console.WriteLine(String.Format("ExternalLinks: {0}", info.ExternalLinks));
+        Console.WriteLine(String.Format("ResourceFiles: {0}", info.ResourceFiles));
+        Console.WriteLine(String.Format("ResourceSize: {0}", info.ResourceSize));
+        Console.WriteLine("");
+
+        return;
+    }
+}
+
+++++3. Скомпилировать проект и убедиться в работоспособности.
+ - это не будет работать, так как еще нет кода в public void MSolution.SolutionOpen(string solutionFilePath)
+   и он не может загрузить файл настроек солюшена чтобы код мог его потом получить от public MSolutionSettings MSolution.SolutionGetStatistics().
+ - это не будет работать, так как еще нет кода загрузки из файла в класс  MSolutionSettings.  
+
++++Отзывы
+Оказались ли принятые решения правильными и почему/почему нет.
+
++++Документация
+todo: Описать происходящие процессы и написать текст для документации 
+Для лучшего понимания кода и написания документации Движка.
+ 

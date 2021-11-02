@@ -1,0 +1,47 @@
+C:\Temp\Projects\SIM\Tapp23\TestShell\bin\Debug\TestShell.exe
+C:\Temp\Projects\SIM\Tapp23\TestShell\bin\Debug\TestShell.pdb
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\TestShell.TestShellForm.resources
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\TestShell.Properties.Resources.resources
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\TestShell.csproj.GenerateResource.Cache
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\TestShell.exe
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\TestShell.pdb
+C:\Temp\Projects\SIM\Tapp23\TestShell\bin\Debug\Mary.dll
+C:\Temp\Projects\SIM\Tapp23\TestShell\bin\Debug\Mary.pdb
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\TestShell.NewProjectForm.resources
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\TestShell.CellPropertiesForm.resources
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\TestShell.LinkPropertiesForm.resources
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\TestShell.NavigatorForm.resources
+C:\Temp\Projects\SIM\Tapp23\TestShell\obj\Debug\TestShell.PlacesEditorForm.resources
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\Debug\TestShell.exe
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\Debug\TestShell.pdb
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\Debug\Mary.dll
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\Debug\Mary.pdb
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.CellPropertiesForm.resources
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.TestShellForm.resources
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.LinkPropertiesForm.resources
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.NavigatorForm.resources
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.NewProjectForm.resources
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.PlacesEditorForm.resources
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.Properties.Resources.resources
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.csproj.GenerateResource.Cache
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.exe
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.pdb
+C:\Documents and Settings\1\Мои документы\Visual Studio 2008\Projects\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.ListAllCellsForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\Debug\TestShell.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\Debug\TestShell.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\Debug\Mary.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\Debug\Mary.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.CellPropertiesForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.TestShellForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.LinkPropertiesForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.ListAllCellsForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.NavigatorForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.NewProjectForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.PlacesEditorForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.Properties.Resources.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\Debug\TestShell.csproj.GenerateResource.Cache

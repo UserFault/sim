@@ -1,0 +1,18 @@
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Bar\bin\x86\Debug\Readme-Bar.txt
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Bar\bin\x86\Debug\Bar.dll
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Bar\bin\x86\Debug\Bar.pdb
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Bar\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Bar\obj\x86\Debug\Bar.dll
+C:\Documents and Settings\John Smith\Мои документы\Visual Studio 2008\Projects\Sim2018\Bar\obj\x86\Debug\Bar.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Bar\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Bar\obj\x86\Debug\Bar.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Bar\obj\x86\Debug\Bar.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Bar\bin\x86\Debug\Readme-Bar.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Bar\bin\x86\Debug\Bar.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Sim2018\Bar\bin\x86\Debug\Bar.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Bar\bin\x86\Debug\Readme-Bar.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Bar\bin\x86\Debug\Bar.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Bar\bin\x86\Debug\Bar.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Bar\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Bar\obj\x86\Debug\Bar.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Самый новый рывок\Sim2018\Bar\obj\x86\Debug\Bar.pdb

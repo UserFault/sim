@@ -1,0 +1,10 @@
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsJetDbAdapter\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsJetDbAdapter\obj\x86\Debug\MsJetDbAdapter.Properties.Resources.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsJetDbAdapter\obj\x86\Debug\MsJetDbAdapter.csproj.GenerateResource.Cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsJetDbAdapter\bin\x86\Debug\Readme-Mary.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsJetDbAdapter\bin\x86\Debug\MsJetDbAdapter.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsJetDbAdapter\bin\x86\Debug\MsJetDbAdapter.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsJetDbAdapter\bin\x86\Debug\Mary.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsJetDbAdapter\bin\x86\Debug\Mary.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsJetDbAdapter\obj\x86\Debug\MsJetDbAdapter.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsJetDbAdapter\obj\x86\Debug\MsJetDbAdapter.pdb

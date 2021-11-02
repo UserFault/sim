@@ -1,0 +1,116 @@
+﻿Тут перечислить функции солюшена, контейнера, ячейки, связи, образующие апи движка с точки зрения пользователя.
+Эти были определены в текущем проекте. Но это точно не все, так как проект еще не обкатан. 
+
+++Солюшен
++++Проперти
+public MLog Log
+public Mary.DatabaseAdapters.MDbAdapterBase DataLayer
+public MSnapshot SnapshotManager
+public MResource ResourceManager
+public MMethod MethodManager
+public MSolution SolutionManager
+public MSolutionInfo SolutionSettings
+
++++Функции
+public void SolutionOpen(string projectFilePath)
+public void SolutionCreate(string rootFolder, MSolutionInfo info)
+public MStatistic SolutionGetStatistics()
+public void SolutionSave()
+- не сохраняет временные ячейки почему-то.
+public void SolutionOptimize()
+public void SolutionClose(bool withSave)
+public void SolutionClear()
+public static void SolutionDelete(string projectFilePath)
+
+public void SnapshotFullLoad(string snapshotFilePathName)
+public void SnapshotFullCreate()
+
+public string ToString()
+
+++Контейнер
++++Проперти
+public int ContainerID
+public String Name
+public string Description
+public bool isActive
+public int ServiceFlag
+public MID State
+public MCellCollection Cells
+public MLinkCollection Links
+public Mary.DatabaseAdapters.MDbAdapterBase DataLayer
+public MCellMode DefaultCellMode
+
++++Функции
+public void SaveAllTemporaryCells()
+public void SaveAllDelaySavedCells()
+-если переделать енум типа ячеек в флаггед енум, то можно сделать одну функцию сохранения для разных ячеек. 
+Чтобы сохранять их выборочно. Это важно почему-то - сохранять их выборочно.
+
+public MCell CellGetAny()
+public MCell CellCreate(MCellMode mode)
+public MCell CellCreate(MCellMode mode, String title, String description)
+public MCell CellGet(MID cellID)
+public MCell CellGet(string title)
+public MCell CellLoad(MID cellID, MCellMode cellMode)
+public MCell CellLoad(string cellTitle, MCellMode cellMode)
+- в чем разница с CellGet ? Надо привести к одному названию.
+public void CellDelete(MID cellID)
+public void CellUnload(MID cellID)
+public bool CellIsUniqueName(string cellName)
+
+public string ToString()
+
+++Ячейка MCell+
++++Проперти
+public string Description
+public bool isActive
+public int ServiceFlag
+public MID State
+public static MEngine Container
+public String Name
+public MID TypeId
+public DateTime CreaTime
+public DateTime ModiTime
+public bool ReadOnly
+public byte[] Value
+public MID ValueTypeId
+public MLinkCollection Links
+public MCellMode CellMode
+public MID CellID
+public bool isLargeCell
+
++++Функции
+public void S1_Save()
+public void S1_Delete()
+public void S1_Unload()
+
+public MLink S1_createLink(MID Axis, MAxisDirection axisDirection, MCell targetCell)
+public int S1_deleteLink(MID axis, MAxisDirection axisDirection, MCell targetCell)
+public static bool IsCellType(Object obj)
+
+public string ToString()
+
+++Связь
++++Проперти
+public MID downCellID
+public MID upCellID
+public MID Axis
+public MCell upCell
+public MCell downCell
+public string Description
+public bool isActive
+public int ServiceFlag
+public MID State
+public int TableId
+public bool isLinkNotTemporary
+
++++Функции
+public MAxisDirection getAxisDirection(MID cellid)
+public void setCellsByDirection(MAxisDirection dir, MCell curCell, MCell targCell)
+public void setCellsByDirection(MAxisDirection dir, MCell curCell, MID targCellId)
+public bool isLinkHaveTempCell()
+public static MAxisDirection inverseAxisDirection(MAxisDirection axisDirection)
+
+public string ToString()
+
+

@@ -1,0 +1,52 @@
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\x86\Debug\TestShell.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\x86\Debug\TestShell.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\x86\Debug\Mary.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\bin\x86\Debug\Mary.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.CellPropertiesForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.TestShellForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.LinkPropertiesForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.ListAllCellsForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.NavigatorForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.NewProjectForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.PlacesEditorForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.Properties.Resources.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.csproj.GenerateResource.Cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\Tapp230\Tapp23\TestShell\obj\x86\Debug\TestShell.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\Readme-Mary.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\Readme-TestShell.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\TestShell.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\TestShell.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\Mary.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\Mary.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.CellPropertiesForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.TestShellForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.LinkPropertiesForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.ListAllCellsForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.NavigatorForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.NewProjectForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.PlacesEditorForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.Properties.Resources.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.csproj.GenerateResource.Cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Уже готовый для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\Readme-Mary.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\Readme-TestShell.txt
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\TestShell.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\TestShell.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\Mary.dll
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\bin\x86\Debug\Mary.pdb
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.CellPropertiesForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.TestShellForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.LinkPropertiesForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.ListAllCellsForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.NavigatorForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.NewProjectForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.PlacesEditorForm.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.Properties.Resources.resources
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.csproj.GenerateResource.Cache
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.exe
+V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\TestShell\obj\x86\Debug\TestShell.pdb

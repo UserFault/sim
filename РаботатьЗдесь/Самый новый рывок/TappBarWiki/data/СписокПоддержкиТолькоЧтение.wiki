@@ -1,0 +1,149 @@
+﻿++ Список Поддержки Только Чтение
+++ Список Функций Движка Для Пользователя
+Тут перечислить функции солюшена, контейнера, ячейки, связи, образующие апи движка с точки зрения пользователя.
+Эти были определены в старом проекте. Но это точно не все, так как проект еще не обкатан. 
+
+В солюшене Только Чтение в текущем исполнении нельзя создавать временные ячейки и связи. 
+Но это надо обдумать.
+
+++Типы реакций
+ - Readonly: Выбросить исключение. : Поскольку вся операция не имеет смысла, если ее игнорировать.
+ - Readonly: Игнорировать операцию или выбросить исключение.
+ - Readonly: Не требуется, так как нет изменения Солюшена.
+ - Readonly: Выбросить исключение, если не временная ячейка.
+
+++Солюшен
++++Проперти
+ * public MLog Log - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MDbAdapterBase DataLayer - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MSnapshot SnapshotManager - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MResource ResourceManager - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MMethod MethodManager - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MSolution SolutionManager - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MSolutionInfo SolutionSettings - Readonly: Не требуется, так как нет изменения Солюшена.
+
++++Функции
+ * public void SolutionOpen(string projectFilePath) - Readonly: Открыть Солюшен в режиме Только Чтение.
+ * public void SolutionCreate(string rootFolder, MSolutionInfo info) - Readonly: Выбросить исключение.
+ * public MStatistic SolutionGetStatistics() - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public void SolutionSave() 
+   - не сохраняет временные ячейки, только ячейки отложенной записи.
+   Смысл временных ячеек в том, чтобы создавать и работать со структурами понарошку, которые не становятся частью контейнера.
+   Хотя их тоже можно потом сохранить, но это отдельная возможность. Которая исходно была задумана для быстрого создания большой структуры ячеек, ее проверки и оптимизации, и потом уже сохранения в Солюшене.
+   - там есть номер в Версия данных Солюшена, который надо инкрементировать с каждым новым сохранением.
+   - Readonly: если ячеек отложенной записи нет, то сохранять нечего и можно игнорировать операцию. Если же есть, то надо выбрасывать исключение. Версия данных Солюшена не изменится, но и изменений в Солшене не было ведь?
+ * public void SolutionOptimize() - Readonly: Выбросить исключение.
+ * public void SolutionClose(bool withSave) - Readonly: реализована в вызываемых функциях. 
+    * вызывается public void SolutionSave().
+ * public void SolutionClear() - Readonly: Выбросить исключение.
+ * public static void SolutionDelete(string projectFilePath) - Readonly: Выбросить исключение.
+
+ * public string ToString()- Readonly: Не требуется, так как нет изменения Солюшена.
+
+++MSnapshotManager
++++Функции
+ * public void SnapshotFullLoad(string snapshotFilePathName) - Readonly: Выбросить исключение.
+ * public void SnapshotFullCreate(..) - Readonly: если каталог для файла снимка доступен на запись, то выполнять. а если недоступен, то выбрасывать исключение.
+    * public void SnapshotFullCreate(string snapshotFilePath) - перегрузка для выгрузки снимков куда попало.
+
+ * public string ToString()- Readonly: Не требуется, так как нет изменения Солюшена.
+
+++Контейнер
++++Проперти
+ * public int ContainerID - невозможно изменить после создания солюшена 
+    * кстати, а как изменить, если все же потребуется? Нужна отдельная функция для этого. Редкоиспользуемая, но сложная. Или хрен с ним?
+ * public String Name  - Readonly: сохраняется в файл солюшена, который не сохраняется если не может.
+ * public string Description - Readonly: сохраняется в файл солюшена, который не сохраняется если не может.
+ * public bool isActive - Readonly: сохраняется в файл солюшена, который не сохраняется если не может.
+ * public int ServiceFlag - Readonly: сохраняется в файл солюшена, который не сохраняется если не может.
+    * Используется для поиска минимального пути в графе. 
+    * Решение: значение должно храниться в локальной переменной и не должно записываться в БД.
+ * public MID State - Readonly: сохраняется в файл солюшена, который не сохраняется если не может.
+ * public MCellCollection Cells - пользователь только читает их
+ * public MLinkCollection Links - пользователь только читает их
+ * public MDbAdapterBase DataLayer - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MCellMode DefaultCellMode - Readonly: Не требуется, так как нет изменения Солюшена.
+
++++Функции
+ * public void SaveAllTemporaryCells() - Readonly: Выбросить исключение.
+ * public void SaveAllDelaySavedCells() - Readonly: Выбросить исключение.
+
+ * public MCell CellGetAny() - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MCell CellCreate(MCellMode mode) - Readonly: Выбросить исключение, если ячейка не временная. Иначе - выполнить функцию.
+ * public MCell CellCreate(MCellMode mode, String title, String description) - Readonly: Выбросить исключение, если ячейка не временная. Иначе - выполнить функцию.
+ * public MCell CellGet(MID cellID) - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MCell CellGet(string title) - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MCell CellLoad(MID cellID, MCellMode cellMode) - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MCell CellLoad(string cellTitle, MCellMode cellMode) - Readonly: Не требуется, так как нет изменения Солюшена.
+- в чем разница с CellGet ? Надо привести к одному названию.
+ * public void CellDelete(MID cellID) - Readonly: Выбросить исключение, если ячейка не временная. Иначе - выполнить функцию.
+ * public void CellUnload(MID cellID) - Readonly: Зависит от реализации
+ * public bool CellIsUniqueName(string cellName) - Readonly: Не требуется, так как нет изменения Солюшена.
+
+ * public string ToString() - Readonly: Не требуется, так как нет изменения Солюшена.
+
+++Ячейка MCell+
++++Проперти
+ * public string Description - Readonly: Выбросить исключение, если не временная ячейка.
+ * public bool isActive - Readonly: Выбросить исключение, если не временная ячейка.
+ * public int ServiceFlag - Readonly: Не требуется, так как нет изменения Солюшена.
+    * Используется для поиска минимального пути в графе. 
+    * Решение: значение должно храниться в локальной переменной и не должно записываться в БД. Коллекции ячеек и связей контейнера должны иметь публичную функцию заполнения этого поля всех ячеек и связей указанным значением. 
+ * public MID State - Readonly: Выбросить исключение, если не временная ячейка.
+ * public static MEngine Container - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public String Name - Readonly: Выбросить исключение, если не временная ячейка.
+ * public MID TypeId - Readonly: Выбросить исключение, если не временная ячейка.
+ * public DateTime CreaTime - Readonly: Выбросить исключение, если не временная ячейка.
+ * public DateTime ModiTime - Readonly: Выбросить исключение, если не временная ячейка.
+ * public bool ReadOnly - Readonly: Выбросить исключение, если не временная ячейка.
+ * public byte[] Value - Readonly: Выбросить исключение, если не временная ячейка.
+ * public MID ValueTypeId - Readonly: Выбросить исключение, если не временная ячейка.
+ * public MLinkCollection Links - Readonly: Выбросить исключение, если не временная ячейка.
+ * public MCellMode CellMode - Readonly: Выбросить исключение, так как поле задается при создании ячейки и не должно изменяться.
+ * public MID CellID - Readonly: не может быть изменено
+ * public bool isLargeCell - Readonly: Не требуется, так как нет изменения Солюшена.
+
++++Функции
+ * public void S1_Save() - Readonly: Выбросить исключение
+ * public void S1_Delete() - Readonly: Выбросить исключение, если не временная ячейка.
+ * public void S1_Unload() - Readonly: Зависит от реализации
+
+ * public MLink S1_createLink(MID Axis, MAxisDirection axisDirection, MCell targetCell) - Readonly: Выбросить исключение, если не временная связь. 
+    * Связь создается только временной, если хотя бы одна из ячеек временная. Нельзя создать постоянную связь с временными ячейками. Но можно создать временную связь между двумя постоянными ячейками. 
+ * public int S1_deleteLink(MID axis, MAxisDirection axisDirection, MCell targetCell) - Readonly: Выбросить исключение, если не временная связь.
+ 
+ * public static bool IsCellType(Object obj) - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public string ToString() - Readonly: Не требуется, так как нет изменения Солюшена.
+
+++Связь
++++Проперти
+ * public MID downCellID - Readonly: Выбросить исключение. Значение задается при создании связи и не может быть изменено.
+ * public MID upCellID - Readonly: Выбросить исключение. Значение задается при создании связи и не может быть изменено.
+ * public MID Axis - Readonly: Выбросить исключение. Значение задается при создании связи и не может быть изменено.
+ * public MCell upCell - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public MCell downCell - Readonly: Не требуется, так как нет изменения Солюшена.
+ * public string Description - Readonly: Выбросить исключение, если не временная связь.
+ * public bool isActive - Readonly: Выбросить исключение, если не временная связь.
+ * public int ServiceFlag - Readonly: Не требуется, так как нет изменения Солюшена.
+    * Используется для поиска минимального пути в графе. 
+    * Решение: значение должно храниться в локальной переменной и не должно записываться в БД. Коллекции ячеек и связей контейнера должны иметь публичную функцию заполнения этого поля всех ячеек и связей указанным значением. 
+ * public MID State - Readonly: Выбросить исключение, если не временная связь.
+ * public int TableId - Readonly: Выбросить исключение, если не временная связь.
+ * public bool isLinkNotTemporary - Readonly: Не требуется, так как нет изменения Солюшена.
+
++++Функции
+ * public MAxisDirection getAxisDirection(MID cellid) - Readonly: Не требуется, так как нет изменения Солюшена.
+ 
+ Исправить: Это не публичные функции связей, они не нужны пользователю:
+ * public void setCellsByDirection(MAxisDirection dir, MCell curCell, MCell targCell) - Readonly: Выбросить исключение, если не временная связь.
+ * public void setCellsByDirection(MAxisDirection dir, MCell curCell, MID targCellId) - Readonly: Выбросить исключение, если не временная связь.
+ * public bool isLinkHaveTempCell() - Readonly: Не требуется, так как нет изменения Солюшена.
+ 
+ * public static MAxisDirection inverseAxisDirection(MAxisDirection axisDirection) - Readonly: Не требуется, так как нет изменения Солюшена.
+ 
+ Добавить функцию:
+ * public static bool IsLinkType(Object obj) - Readonly: Не требуется, так как нет изменения Солюшена.
+ 
+ * public string ToString() - Readonly: Не требуется, так как нет изменения Солюшена.
+
+
