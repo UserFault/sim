@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{FB3A0661-54D1-424D-9AE1-82DAA6E7FBFD}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -103,9 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="DatabaseAdapters\dbAdapters.cd" />
-    <None Include="Main.cd" />
     <None Include="Serialization\Serial.cd" />
-    <None Include="Versions.cd" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="DatabaseAdapters\OleDbBaseFile.mdb" />
@@ -114,6 +112,10 @@
     </Content>
     <Content Include="Serialization\SnapshotFormat.txt" />
     <Content Include="Todo-Mary.txt" />
+    <Content Include="ToDo-Old.txt" />
+    <Content Include="Version-Mary.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

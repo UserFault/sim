@@ -1,8 +1,0 @@
-V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsSql2005DbAdapter\obj\x86\Debug\ResolveAssemblyReference.cache
-V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsSql2005DbAdapter\bin\x86\Debug\Readme-Mary.txt
-V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsSql2005DbAdapter\bin\x86\Debug\MsSql2005DbAdapter.dll
-V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsSql2005DbAdapter\bin\x86\Debug\MsSql2005DbAdapter.pdb
-V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsSql2005DbAdapter\bin\x86\Debug\Mary.dll
-V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsSql2005DbAdapter\bin\x86\Debug\Mary.pdb
-V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsSql2005DbAdapter\obj\x86\Debug\MsSql2005DbAdapter.dll
-V:\МоиПроекты\ДвижокТапп\РаботатьЗдесь\Тапп23-2013 для экспериментов\Tapp2_25072013\MsSql2005DbAdapter\obj\x86\Debug\MsSql2005DbAdapter.pdb
